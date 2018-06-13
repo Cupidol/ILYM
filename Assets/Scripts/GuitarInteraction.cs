@@ -24,10 +24,10 @@ public class GuitarInteraction : MonoBehaviour {
         if (myRay.pickedUp)
         {
             Debug.Log("You now have the Guitar");
-            storyInteractable.isUsed = true;
+            //storyInteractable.isUsed = true;
             if (Input.GetKeyDown(KeyCode.Q))
             {
-                playerController.enabled = playingGuitar;
+				playerController.enabled = playingGuitar;
                 mouseLook.enabled = playingGuitar;
                 playingGuitar = !playingGuitar;
             }
