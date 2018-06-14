@@ -171,25 +171,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45d3f008d2424de4393c151eeffdb31b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &12363786 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15,
-    type: 2}
-  m_PrefabInternal: {fileID: 715316959}
---- !u!114 &12363790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 12363786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7baf55de5972bb41ab54df6290a2906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message:
-  - I don't think that I should exit the ship now
-  textmesh: {fileID: 1914335844}
 --- !u!1 &26758521
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +637,18 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
+    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: isExit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &201143553 stripped
@@ -1350,6 +1342,23 @@ Transform:
   m_PrefabParentObject: {fileID: 4270831777079458, guid: 8bc464b216e12f64b8dfa5b39aec8368,
     type: 2}
   m_PrefabInternal: {fileID: 2123821631}
+--- !u!1 &475782346 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15,
+    type: 2}
+  m_PrefabInternal: {fileID: 715316959}
+--- !u!114 &475782351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475782346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!1001 &509040411
 Prefab:
   m_ObjectHideFlags: 0
@@ -2343,34 +2352,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
-      propertyPath: m_Name
-      value: exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068098038266322, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
         type: 2}
       propertyPath: door
       value: 
       objectReference: {fileID: 1953342359}
-    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
+    - target: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
+      propertyPath: m_Name
+      value: exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
         type: 2}
-      propertyPath: exit
+      propertyPath: textmesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
-        type: 2}
-      propertyPath: isExit
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1914335844}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
@@ -3385,6 +3380,18 @@ MonoBehaviour:
   - This is the bathroom
   - It's where I clean myself
   textmesh: {fileID: 1914335844}
+--- !u!114 &926235016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926235011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!1 &977845626
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3567,18 @@ MonoBehaviour:
   - This is my bedroom
   - This is where I sleep
   textmesh: {fileID: 1914335844}
+--- !u!114 &1018555039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018555034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!1 &1037109608
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,6 +3816,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053750935}
+--- !u!1 &1054145140 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1518781870656316, guid: 353e624a77f19b448b4784337c1baecd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1205802025}
+--- !u!114 &1054145142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1054145140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!1 &1055629921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3941,7 +3977,18 @@ Prefab:
       propertyPath: m_Name
       value: pCylinder1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
+    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: isExit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1059281076
@@ -4361,6 +4408,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
     - target: {fileID: 1518781870656316, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
       propertyPath: m_Name
       value: wallnet (1)
@@ -4523,7 +4575,18 @@ Prefab:
       propertyPath: exit
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
+    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: isExit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1205802025
@@ -4564,6 +4627,16 @@ Prefab:
     - target: {fileID: 4031102975878190, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
       propertyPath: m_RootOrder
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.data[0]
+      value: Ik ben ook een netje!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
@@ -5260,6 +5333,18 @@ MeshFilter:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 62dec41d3ec28f9429180cc5384364e0, type: 3}
   m_PrefabInternal: {fileID: 1220722218}
+--- !u!114 &1402351872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1402351871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!65 &1402351876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5454,6 +5539,18 @@ GameObject:
   m_PrefabParentObject: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15,
     type: 2}
   m_PrefabInternal: {fileID: 1783139763}
+--- !u!114 &1444024047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444024046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!114 &1444024050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5513,6 +5610,18 @@ MonoBehaviour:
   - This is the storage room
   - It's where I store my stuff
   textmesh: {fileID: 1914335844}
+--- !u!114 &1485616540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1485616535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!4 &1488514075 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4068098038266322, guid: 828b845f7809f3e4481dd3238014ea15,
@@ -6157,7 +6266,18 @@ Prefab:
       propertyPath: m_Name
       value: cockpit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1914335844}
+    - target: {fileID: 114950085004722662, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: isExit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1786121157

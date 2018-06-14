@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 95049633323904892}
   - component: {fileID: 114950085004722662}
   - component: {fileID: 65548101707711110}
+  - component: {fileID: 114886667998446576}
   m_Layer: 9
   m_Name: button1
   m_TagString: Untagged
@@ -87,8 +88,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1891610566231774}
-  m_LocalRotation: {x: -0, y: 0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: -0.37866664, y: 2.6310701, z: -2.183124}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.271334, y: 2.6310701, z: 2.026876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4581361555929126}
@@ -96,7 +97,7 @@ Transform:
   - {fileID: 4551934196354818}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4307987137821470
 Transform:
   m_ObjectHideFlags: 1
@@ -254,6 +255,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1099761e28aad6e4db365552ee4258ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114886667998446576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891610566231774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7baf55de5972bb41ab54df6290a2906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message:
+  - I don't think that I should exit the ship now
+  textmesh: {fileID: 0}
 --- !u!114 &114950085004722662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -266,6 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 0}
+  isExit: 1
 --- !u!114 &114961094398667436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -280,6 +296,7 @@ MonoBehaviour:
   billboard_button: {fileID: 21300000, guid: ad4aca8681030854ca6efea73a423259, type: 3}
   billboard_indicator: {fileID: 21300000, guid: adbd62e958d545946be22a2e29258a3d,
     type: 3}
+  billboard_hider: {fileID: 0}
   player: {fileID: 0}
   goal: {fileID: 1947219458097178}
 --- !u!212 &212616312959140992

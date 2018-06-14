@@ -15,7 +15,7 @@ public class PlayerInteraction : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-
+                hit.transform.gameObject.GetComponent<StoryInteractable>().AddToStoryList();
                 if (hit.transform.gameObject.name == "guitar")
                 {
                     hit.transform.gameObject.SetActive (false);
@@ -24,7 +24,7 @@ public class PlayerInteraction : MonoBehaviour
                 }
                 else
                 {
-                    hit.transform.gameObject.GetComponent<DoorButton>().PressButton();
+                    hit.transform.gameObject.GetComponent<Interactable>().ActivateObject();
                     Debug.Log(hit.transform.gameObject.name);
                 }
 
