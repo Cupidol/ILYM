@@ -19,7 +19,9 @@ public class PlayerController : MonoBehaviour {
     {
         get { return isRunning; }
     }
-
+	void Start(){
+		Cursor.visible = false;
+	}
 	void Awake () {
 		GetComponent<Rigidbody>().freezeRotation = true;
 		GetComponent<Rigidbody>().useGravity = false;

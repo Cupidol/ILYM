@@ -10,7 +10,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         int layerMask = 1 << 9;
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 4.5f, layerMask))
         {
 
             if (Input.GetKeyDown(KeyCode.E))
@@ -18,14 +18,13 @@ public class PlayerInteraction : MonoBehaviour
                 hit.transform.gameObject.GetComponent<StoryInteractable>().AddToStoryList();
                 if (hit.transform.gameObject.name == "guitar")
                 {
-                    hit.transform.gameObject.SetActive (false);
+                    //hit.transform.gameObject.SetActive (false);
+					hit.transform.gameObject.GetComponent<MeshRenderer>().enabled = false;
                     pickedUp = true;
-                    Debug.Log(hit.transform.gameObject.name);
                 }
                 else
                 {
                     hit.transform.gameObject.GetComponent<Interactable>().ActivateObject();
-                    Debug.Log(hit.transform.gameObject.name);
                 }
 
             }

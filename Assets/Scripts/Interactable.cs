@@ -23,7 +23,6 @@ public class Interactable : MonoBehaviour{
 		} else if (door != null) {
 			component.invoke();
 		}
-        Debug.Log("Ik word aangeroepen");
 		if (component != null && !isPlayed){
             isPlayed = true;
             component.invoke();

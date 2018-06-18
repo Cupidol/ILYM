@@ -98,13 +98,13 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-     <Compile Include="Assets\Scripts\AddInvertedMeshCollider.cs" />
-     <Compile Include="Assets\Scripts\AddInvertedMeshColliderEditor.cs" />
      <Compile Include="Assets\Scripts\billboard.cs" />
      <Compile Include="Assets\Scripts\door.cs" />
      <Compile Include="Assets\Scripts\DoorBehaviour.cs" />
      <Compile Include="Assets\Scripts\DoorButton.cs" />
+     <Compile Include="Assets\Scripts\FadeScreen.cs" />
      <Compile Include="Assets\Scripts\GuitarInteraction.cs" />
+     <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\interaction_indicator.cs" />
      <Compile Include="Assets\Scripts\interaction_indicator_collider_inner.cs" />
      <Compile Include="Assets\Scripts\interaction_indicator_collider_outer.cs" />
