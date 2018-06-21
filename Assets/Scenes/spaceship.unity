@@ -168,6 +168,10 @@ Prefab:
       propertyPath: m_Name
       value: crate (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1271492380667692, guid: 45d3f008d2424de4393c151eeffdb31b, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45d3f008d2424de4393c151eeffdb31b, type: 2}
   m_IsPrefabParent: 0
@@ -325,6 +329,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26758521}
+--- !u!1 &32498888 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1271492380667692, guid: 45d3f008d2424de4393c151eeffdb31b,
+    type: 2}
+  m_PrefabInternal: {fileID: 532174186}
+--- !u!65 &32498890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32498888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &37686142
 Prefab:
   m_ObjectHideFlags: 0
@@ -548,6 +569,48 @@ Transform:
   m_Father: {fileID: 275112831}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &121771046
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1957477286}
+    m_Modifications:
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.728
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &122153893 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4580271515452358, guid: 45d3f008d2424de4393c151eeffdb31b,
@@ -915,6 +978,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - That day in the train...
+  - I don't even remember where we were going
+  - But I do remember we had a great time together
   textmesh: {fileID: 1914335844}
 --- !u!1001 &223012100
 Prefab:
@@ -3901,6 +3966,64 @@ Transform:
   m_Father: {fileID: 275112831}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &809551832 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1271492380667692, guid: 45d3f008d2424de4393c151eeffdb31b,
+    type: 2}
+  m_PrefabInternal: {fileID: 4705933}
+--- !u!114 &809551833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809551832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7baf55de5972bb41ab54df6290a2906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message:
+  - Some of these are filled with packages for clients
+  - But most of them contain booze
+  textmesh: {fileID: 1914335844}
+--- !u!65 &809551834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809551832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &809551835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809551832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
+  indicator: {fileID: 1390987047}
+--- !u!114 &809551836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809551832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fccc14c2da6fb49be8f64a6dfddca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  isExit: 0
 --- !u!4 &814634423 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4457734951548748, guid: a4297e7613ebf1d4eb4cdb14f5c55c87,
@@ -4448,6 +4571,23 @@ Transform:
   m_PrefabParentObject: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f,
     type: 2}
   m_PrefabInternal: {fileID: 912513505}
+--- !u!1 &957806318 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1271492380667692, guid: 45d3f008d2424de4393c151eeffdb31b,
+    type: 2}
+  m_PrefabInternal: {fileID: 666497510}
+--- !u!65 &957806320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957806318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &977845626
 GameObject:
   m_ObjectHideFlags: 0
@@ -5440,6 +5580,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4031102975878190, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -5486,6 +5631,16 @@ Prefab:
       propertyPath: indicator
       value: 
       objectReference: {fileID: 105289042}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.data[0]
+      value: These crates mostly contain stuff from earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.data[1]
+      value: I haven't opened these in months...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
   m_IsPrefabParent: 0
@@ -5727,6 +5882,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4031102975878190, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
       propertyPath: m_LocalPosition.x
       value: -5
@@ -5767,7 +5927,12 @@ Prefab:
     - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
         type: 2}
       propertyPath: message.Array.data[0]
-      value: Ik ben ook een netje!
+      value: This is the cargo I'm delivering
+      objectReference: {fileID: 0}
+    - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
+        type: 2}
+      propertyPath: message.Array.data[1]
+      value: Probably shouldn't get these confused with the other ones...
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114119411924972190, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
@@ -6220,6 +6385,23 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 719246342}
+--- !u!1 &1370870017 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1271492380667692, guid: 45d3f008d2424de4393c151eeffdb31b,
+    type: 2}
+  m_PrefabInternal: {fileID: 557171638}
+--- !u!65 &1370870019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370870017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1372346375
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,6 +6519,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1390987047 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1402922282616784, guid: 15bd5393d25484848847f03e3cef9c0f,
+    type: 2}
+  m_PrefabInternal: {fileID: 121771046}
 --- !u!1 &1397002294
 GameObject:
   m_ObjectHideFlags: 0
@@ -6680,6 +6867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - I remember when this picture was taken
+  - It wasn't too long after we'd met
   textmesh: {fileID: 1914335844}
 --- !u!114 &1404063917
 MonoBehaviour:
@@ -7029,7 +7217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - This is the storage room
-  - It's where I store my stuff
+  - It's where I...store stuff
   textmesh: {fileID: 1914335844}
 --- !u!114 &1485616540
 MonoBehaviour:
@@ -9013,6 +9201,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 0ec39ef214bf89840adadadcd55c8c66,
         type: 3}
+    - target: {fileID: 95742848223888492, guid: e9b9271aa2a4e1947a433ae4b59eaa2a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9b9271aa2a4e1947a433ae4b59eaa2a, type: 2}
   m_IsPrefabParent: 0
@@ -9580,7 +9773,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: d760b5f8b485b5342a4a91a8e232297e, type: 2}
       propertyPath: m_ClearFlags
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d760b5f8b485b5342a4a91a8e232297e, type: 2}
       propertyPath: m_LocalPosition.z

@@ -45,6 +45,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+b336b1b9c47a192cbc3addc798efe954 Assembly-CSharp.dll:.FadeScreen
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -200,4 +201,3 @@ f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.
 bcb9900302cc6dc0f79a00b6b9db3c3f Assembly-CSharp.dll:.interaction_indicator_collider_inner
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.billboard
 1b40cd7fff2f65a40b39f072c545905c Assembly-CSharp.dll:.StoryManager
-b336b1b9c47a192cbc3addc798efe954 Assembly-CSharp.dll:.FadeScreen
