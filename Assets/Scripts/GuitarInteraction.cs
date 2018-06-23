@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GuitarInteraction : MonoBehaviour {
 
@@ -10,7 +11,17 @@ public class GuitarInteraction : MonoBehaviour {
     PlayerController playerController;
     MouseLook mouseLook;
 	public Rigidbody rigidBody;
-    public AudioClip Gnote;
+    public AudioClip Anote;
+	public AudioClip Bnote;
+	public AudioClip Cnote;
+	public AudioClip Dnote;
+	public AudioClip Enote;
+	public AudioClip Fnote;
+	public AudioClip Gnote;
+
+	public TextMeshProUGUI guitarInstruction;
+	public TextMeshProUGUI guitarInstruction2;
+
     public StoryInteractable storyInteractable;
     AudioSource _audio;
 
@@ -30,17 +41,42 @@ public class GuitarInteraction : MonoBehaviour {
 				playerController.enabled = playingGuitar;
 				mouseLook.enabled = playingGuitar;
 				playingGuitar = !playingGuitar;
-        }
+			}
 		if (playingGuitar == true) {
+			guitarInstruction.enabled = true;
+			guitarInstruction2.enabled = false;
 			playerGuitar.SetActive (true);
+			if (Input.GetKeyDown (KeyCode.A)) {
+				_audio.clip = Anote;
+				_audio.Play ();
+			}
+			if (Input.GetKeyDown (KeyCode.B)) {
+				_audio.clip = Bnote;
+				_audio.Play ();
+			}
+			if (Input.GetKeyDown (KeyCode.C)) {
+				_audio.clip = Cnote;
+				_audio.Play ();
+			}
+			if (Input.GetKeyDown (KeyCode.D)) {
+				_audio.clip = Dnote;
+				_audio.Play ();
+			}
+			if (Input.GetKeyDown (KeyCode.E)) {
+				_audio.clip = Enote;
+				_audio.Play ();
+			}
+			if (Input.GetKeyDown (KeyCode.F)) {
+				_audio.clip = Fnote;
+				_audio.Play ();
+			}
 			if (Input.GetKeyDown (KeyCode.G)) {
-				//audio.Play();
 				_audio.clip = Gnote;
 				_audio.Play ();
-				Debug.Log ("Strum");
 			}
 		} else {
 			playerGuitar.SetActive (false);
+			guitarInstruction.enabled = false;
 		}
         }
     }

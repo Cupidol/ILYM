@@ -1,17 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\player_controller\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerInteraction.cs">
     <Files>
-      <File FileName="Assets\Scripts\door.cs" Line="6" Column="36" />
+      <File FileName="Assets\Scripts\door.cs" Line="19" Column="12" />
       <File FileName="Assets\Scripts\interaction_indicator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerInteraction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GuitarInteraction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StoryManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerInteraction.cs" Line="37" Column="40" />
+      <File FileName="Assets\Scripts\GuitarInteraction.cs" Line="79" Column="38" />
+      <File FileName="Assets\Scripts\Message.cs" Line="9" Column="5" />
+      <File FileName="Assets\Scripts\StoryManager.cs" Line="13" Column="15" />
       <File FileName="Assets\Scripts\StoryInteractable.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Interactable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Message.cs" Line="1" Column="1" />
-      <File FileName="Assets\player_controller\MouseLook.cs" Line="29" Column="32" />
-      <File FileName="Assets\player_controller\PlayerController.cs" Line="23" Column="26" />
+      <File FileName="Assets\player_controller\MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets\player_controller\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\Editor\FMOD\EventManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\FMOD\RuntimeManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

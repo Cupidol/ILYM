@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerInteraction : MonoBehaviour
 {
     public bool pickedUp;
+	public TextMeshProUGUI guitarInstruction2;
 
     void Update()
     {
@@ -21,6 +23,7 @@ public class PlayerInteraction : MonoBehaviour
                     //hit.transform.gameObject.SetActive (false);
 					hit.transform.gameObject.GetComponent<MeshRenderer>().enabled = false;
                     pickedUp = true;
+
                 }
                 else
                 {
@@ -28,7 +31,16 @@ public class PlayerInteraction : MonoBehaviour
                 }
 
             }
-
+			if ((hit.transform.gameObject.name == "polaroid1") || (hit.transform.gameObject.name == "polaroid2")){
+				guitarInstruction2.enabled = true;
+			}else{
+				guitarInstruction2.enabled = false;
+			}/*
+			if (hit.transform.gameObject.name == "polaroid2"){
+				guitarInstruction2.enabled = true;
+			}else{
+				guitarInstruction2.enabled = false;
+			}*/
             }
 
         }

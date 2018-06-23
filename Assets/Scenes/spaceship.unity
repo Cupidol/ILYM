@@ -21,8 +21,8 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientEquatorColor: {r: 0.125, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0.007352948, g: 0, b: 0, a: 1}
   m_AmbientIntensity: 1.63
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -773,6 +773,58 @@ Prefab:
     - {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &173336189
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1533079461}
+    m_Modifications:
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.352
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &173336190 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1402922282616784, guid: 15bd5393d25484848847f03e3cef9c0f,
+    type: 2}
+  m_PrefabInternal: {fileID: 173336189}
+--- !u!4 &173336191 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f,
+    type: 2}
+  m_PrefabInternal: {fileID: 173336189}
 --- !u!1 &174462727 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1947219458097178, guid: 828b845f7809f3e4481dd3238014ea15,
@@ -865,7 +917,7 @@ GameObject:
   - component: {fileID: 202163800}
   - component: {fileID: 202163799}
   m_Layer: 9
-  m_Name: polaroids-01
+  m_Name: polaroid1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,8 +1030,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - That day in the train...
-  - I don't even remember where we were going
-  - But I do remember we had a great time together
+  - I don't even remember where we were going...
+  - But I do remember we had a great time together.
   textmesh: {fileID: 1914335844}
 --- !u!1001 &223012100
 Prefab:
@@ -1072,7 +1124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 35f5018cb1360fb4697ee5135f222c75, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 35f5018cb1360fb4697ee5135f222c75, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1101,6 +1153,162 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35f5018cb1360fb4697ee5135f222c75, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &257438396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 257438397}
+  - component: {fileID: 257438399}
+  - component: {fileID: 257438398}
+  m_Layer: 5
+  m_Name: Instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &257438397
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257438396}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.97789496, y: 0.97789496, z: 0.97789496}
+  m_Children: []
+  m_Father: {fileID: 1942970906}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000052452087, y: 508}
+  m_SizeDelta: {x: 1000, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &257438398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257438396}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: 'Press ''...'' to play the ... chord.
+
+    Press ''Q'' to quit playing on the guitar.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 565924acc417b324c931600cdd3703e7, type: 2}
+  m_sharedMaterial: {fileID: 21793354766124892, guid: 565924acc417b324c931600cdd3703e7,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 258
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 35
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 257438398}
+    characterCount: 75
+    spriteCount: 0
+    spaceCount: 14
+    wordCount: 13
+    linkCount: 0
+    lineCount: 2
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 1
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &257438399
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257438396}
 --- !u!4 &257659857 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4580271515452358, guid: 45d3f008d2424de4393c151eeffdb31b,
@@ -1833,7 +2041,7 @@ Transform:
   m_LocalScale: {x: 0.7834972, y: 0.7834972, z: 0.7834972}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: -270, y: 0, z: 137.27501}
 --- !u!1001 &398447318
 Prefab:
@@ -2204,6 +2412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickedUp: 0
+  guitarInstruction2: {fileID: 1400543828}
 --- !u!1001 &518592671
 Prefab:
   m_ObjectHideFlags: 0
@@ -2994,7 +3203,7 @@ Transform:
   m_LocalScale: {x: 0.57073635, y: 0.5707363, z: 0.5707363}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: -75}
 --- !u!4 &691159384 stripped
 Transform:
@@ -3276,6 +3485,11 @@ Prefab:
       propertyPath: textmesh
       value: 
       objectReference: {fileID: 1914335844}
+    - target: {fileID: 114886667998446576, guid: 828b845f7809f3e4481dd3238014ea15,
+        type: 2}
+      propertyPath: message.Array.data[0]
+      value: I don't think that I should exit the ship now.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 828b845f7809f3e4481dd3238014ea15, type: 2}
   m_IsPrefabParent: 0
@@ -3983,8 +4197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - Some of these are filled with packages for clients
-  - But most of them contain booze
+  - Some of these are filled with packages for clients...
+  - But most of them contain booze.
   textmesh: {fileID: 1914335844}
 --- !u!65 &809551834
 BoxCollider:
@@ -4545,8 +4759,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - This is where I clean myself
-  - But I really don't feel like doing that right now...
+  - I don't feel like cleaning myself now...
+  - I should at some point though, it has been a while.
   textmesh: {fileID: 1914335844}
 --- !u!114 &926235016
 MonoBehaviour:
@@ -4780,7 +4994,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 35f5018cb1360fb4697ee5135f222c75, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 35f5018cb1360fb4697ee5135f222c75, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4828,7 +5042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - This is where I sleep...
-  - '...most of the time.'
+  - At least most of the time.
   textmesh: {fileID: 1914335844}
 --- !u!114 &1018555039
 MonoBehaviour:
@@ -5634,16 +5848,75 @@ Prefab:
     - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
         type: 2}
       propertyPath: message.Array.data[0]
-      value: These crates mostly contain stuff from earth
+      value: These crates mostly contain stuff from earth...
       objectReference: {fileID: 0}
     - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
         type: 2}
       propertyPath: message.Array.data[1]
-      value: I haven't opened these in months...
+      value: I haven't opened these in months.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1149855930
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1852217852}
+    m_Modifications:
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 34.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390577320454458, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 15bd5393d25484848847f03e3cef9c0f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1149855931 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1402922282616784, guid: 15bd5393d25484848847f03e3cef9c0f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1149855930}
 --- !u!1 &1162572469
 GameObject:
   m_ObjectHideFlags: 0
@@ -5927,12 +6200,12 @@ Prefab:
     - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
         type: 2}
       propertyPath: message.Array.data[0]
-      value: This is the cargo I'm delivering
+      value: This is the cargo I'm delivering...
       objectReference: {fileID: 0}
     - target: {fileID: 114162923372533162, guid: 353e624a77f19b448b4784337c1baecd,
         type: 2}
       propertyPath: message.Array.data[1]
-      value: Probably shouldn't get these confused with the other ones...
+      value: Probably shouldn't get these confused with the other ones.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114119411924972190, guid: 353e624a77f19b448b4784337c1baecd, type: 2}
@@ -5986,10 +6259,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
-      value: 1
+      time: 0.002
+      value: 0.98779297
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.1941121
+      value: 0.38533378
+      inSlope: -1.0853746
+      outSlope: -1.0853746
       tangentMode: 0
     - serializedVersion: 2
       time: 1
@@ -5999,7 +6278,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -6059,7 +6338,15 @@ MonoBehaviour:
   playingGuitar: 0
   playerGuitar: {fileID: 1237999368}
   rigidBody: {fileID: 1252045551}
-  Gnote: {fileID: 8300000, guid: 870559de22cf5364f98419850e66e5d1, type: 3}
+  Anote: {fileID: 8300000, guid: 65d124bb17c50844b9c443afc4bf3456, type: 3}
+  Bnote: {fileID: 8300000, guid: 2083012862caded40a4ac79f81b80849, type: 3}
+  Cnote: {fileID: 8300000, guid: 1b995d9484d499a47aeb57c01fa50dc5, type: 3}
+  Dnote: {fileID: 8300000, guid: 78b1a35f1c2ae6a45a478f676d886a26, type: 3}
+  Enote: {fileID: 8300000, guid: 418c9b28577694d4bad4f2f6f9af44b9, type: 3}
+  Fnote: {fileID: 8300000, guid: 8499f2d7899e4344eb70dcc7f702f0a9, type: 3}
+  Gnote: {fileID: 8300000, guid: 47f468b949077614eacffdbfcd36d711, type: 3}
+  guitarInstruction: {fileID: 257438398}
+  guitarInstruction2: {fileID: 1400543828}
   storyInteractable: {fileID: 0}
 --- !u!1 &1274532889
 GameObject:
@@ -6606,6 +6893,160 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1397002294}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1400543826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1400543827}
+  - component: {fileID: 1400543829}
+  - component: {fileID: 1400543828}
+  m_Layer: 5
+  m_Name: Instructions2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1400543827
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400543826}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9264268, y: 0.9264268, z: 0.9264268}
+  m_Children: []
+  m_Father: {fileID: 1942970906}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000013828278, y: 508.00128}
+  m_SizeDelta: {x: 1000, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1400543828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400543826}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: Press 'Q' to start playing on the guitar.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 565924acc417b324c931600cdd3703e7, type: 2}
+  m_sharedMaterial: {fileID: 21793354766124892, guid: 565924acc417b324c931600cdd3703e7,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 258
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1400543828}
+    characterCount: 41
+    spriteCount: 0
+    spaceCount: 7
+    wordCount: 8
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 1
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1400543829
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400543826}
 --- !u!1 &1402351871
 GameObject:
   m_ObjectHideFlags: 0
@@ -6767,7 +7208,7 @@ GameObject:
   - component: {fileID: 1404063915}
   - component: {fileID: 1404063917}
   m_Layer: 9
-  m_Name: polaroids-03
+  m_Name: polaroid2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6866,8 +7307,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - I remember when this picture was taken
-  - It wasn't too long after we'd met
+  - I remember when this picture was taken...
+  - It wasn't too long after we'd met...
+  - We were so happy back then.
   textmesh: {fileID: 1914335844}
 --- !u!114 &1404063917
 MonoBehaviour:
@@ -7077,9 +7519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - This is the cockpit
-  - I control my ship from here
-  - 'But it''s mostly on autopilot '
+  - This is the cockpit...
+  - I control my ship from here...
+  - But it's mostly on autopilot.
   textmesh: {fileID: 1914335844}
 --- !u!1 &1461659057 stripped
 GameObject:
@@ -7199,6 +7641,246 @@ Skybox:
   m_GameObject: {fileID: 1480161671}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 2e16b95e66362c44c8d52d5e8e636fde, type: 2}
+--- !u!82 &1480161680
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1480161671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 72e785bfefb82d248816b6904c10c306, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.002
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.91134644
+      value: 0
+      inSlope: -1.002004
+      outSlope: -1.002004
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &1480161681
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1480161671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 09c42737cb1f5a042b0f0106f3c1f89a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &1480161682
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1480161671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fd2ffa01c721d7d41b2174e900bd1639, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1485616535 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1891610566231774, guid: 828b845f7809f3e4481dd3238014ea15,
@@ -7216,7 +7898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - This is the storage room
+  - This is the storage room...
   - It's where I...store stuff
   textmesh: {fileID: 1914335844}
 --- !u!114 &1485616540
@@ -7270,7 +7952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message:
   - I'm such a mess...
-  - I have to stop drinking
+  - I really have to stop drinking.
   textmesh: {fileID: 1914335844}
 --- !u!114 &1519979609
 MonoBehaviour:
@@ -7298,6 +7980,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 0}
   isExit: 0
+--- !u!1 &1533079459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1533079461}
+  - component: {fileID: 1533079460}
+  - component: {fileID: 1533079465}
+  - component: {fileID: 1533079464}
+  - component: {fileID: 1533079463}
+  - component: {fileID: 1533079462}
+  m_Layer: 9
+  m_Name: polaroid3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1533079460
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d8bcc3933dc05b94dba0fe0c5787325a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.3405, y: 0.4165}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1533079461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_LocalRotation: {x: -0.083991155, y: 0.99374926, z: 0.007602645, w: -0.07314452}
+  m_LocalPosition: {x: 3.782, y: -0.037, z: -4.005}
+  m_LocalScale: {x: 0.75757354, y: 0.75757354, z: 0.75757354}
+  m_Children:
+  - {fileID: 173336191}
+  m_Father: {fileID: 0}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 180.162, y: 8.432999, z: -189.674}
+--- !u!114 &1533079462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7baf55de5972bb41ab54df6290a2906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message:
+  - She was the prettiest girl I had ever seen...
+  - No wonder it happened.
+  textmesh: {fileID: 1914335844}
+--- !u!114 &1533079463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fccc14c2da6fb49be8f64a6dfddca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  isExit: 0
+--- !u!114 &1533079464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
+  indicator: {fileID: 173336190}
+--- !u!65 &1533079465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533079459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34050035, y: 0.41650033, z: 0.20000027}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1540750734 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4580271515452358, guid: 45d3f008d2424de4393c151eeffdb31b,
@@ -7659,7 +8470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - This constantly checks if there is enough fuel for my ship.
+  - This constantly checks if there is enough fuel for my ship...
   - It seems like it's still fine.
   textmesh: {fileID: 1914335844}
 --- !u!114 &1629935651
@@ -8006,6 +8817,74 @@ Transform:
   m_PrefabParentObject: {fileID: 4691190950559960, guid: c293fe036fa461d41be2978ecc9f79cb,
     type: 2}
   m_PrefabInternal: {fileID: 407927607}
+--- !u!1 &1775455391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1775455392}
+  - component: {fileID: 1775455394}
+  - component: {fileID: 1775455393}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1775455392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775455391}
+  m_LocalRotation: {x: -0, y: 0.00000001199848, z: 1, w: 0.00000055477983}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0422302, y: 1.0422302, z: 1.0422302}
+  m_Children: []
+  m_Father: {fileID: 1942970906}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.00002}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 490}
+  m_SizeDelta: {x: 1920, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1775455393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775455391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 07353ad4ced358e44bc327b425f44332, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1775455394
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775455391}
 --- !u!4 &1781245970 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4691190950559960, guid: c293fe036fa461d41be2978ecc9f79cb,
@@ -8160,6 +9039,69 @@ Transform:
   m_PrefabParentObject: {fileID: 4580271515452358, guid: 45d3f008d2424de4393c151eeffdb31b,
     type: 2}
   m_PrefabInternal: {fileID: 666497510}
+--- !u!1 &1852217848 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1967739241884648, guid: e9b9271aa2a4e1947a433ae4b59eaa2a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2004871293}
+--- !u!114 &1852217849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852217848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e422b8fefe6df4d95445700c061e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
+  indicator: {fileID: 1149855931}
+--- !u!114 &1852217850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852217848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fccc14c2da6fb49be8f64a6dfddca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  isExit: 0
+--- !u!114 &1852217851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852217848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7baf55de5972bb41ab54df6290a2906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message:
+  - It checks if there are any meteor showers incoming...
+  - I think it might be broken.
+  textmesh: {fileID: 1914335844}
+--- !u!4 &1852217852 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4147506053189312, guid: e9b9271aa2a4e1947a433ae4b59eaa2a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2004871293}
+--- !u!65 &1852217853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852217848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 91.57249, y: 65.138245, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1862788986
 GameObject:
   m_ObjectHideFlags: 0
@@ -8664,7 +9606,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -510}
-  m_SizeDelta: {x: 1000, y: 50}
+  m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914335844
 MonoBehaviour:
@@ -8687,8 +9629,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 565924acc417b324c931600cdd3703e7, type: 2}
+  m_sharedMaterial: {fileID: 21793354766124892, guid: 565924acc417b324c931600cdd3703e7,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8876,6 +9819,9 @@ RectTransform:
   m_Children:
   - {fileID: 1914335843}
   - {fileID: 1596797437}
+  - {fileID: 257438397}
+  - {fileID: 1775455392}
+  - {fileID: 1400543827}
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9206,6 +10152,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1967739241884648, guid: e9b9271aa2a4e1947a433ae4b59eaa2a, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9b9271aa2a4e1947a433ae4b59eaa2a, type: 2}
   m_IsPrefabParent: 0
@@ -9269,10 +10219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - Every time I try, I get the same message
+  - Every time I try, I get the same message...
   - I'm too far away from earth to contact it...
-  - I wish I could talk to someone...
-  - 
+  - I wish I could talk to someone.
   textmesh: {fileID: 1914335844}
 --- !u!4 &2028279378 stripped
 Transform:
@@ -9887,6 +10836,10 @@ Prefab:
       propertyPath: m_RenderingPath
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8100000, guid: d760b5f8b485b5342a4a91a8e232297e, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d760b5f8b485b5342a4a91a8e232297e, type: 2}
   m_IsPrefabParent: 0
@@ -10404,8 +11357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message:
-  - I could really use a better bed
-  - But this one serves its purpose for now
+  - I could really use a better bed...
+  - But this one serves its purpose for now.
   textmesh: {fileID: 1914335844}
 --- !u!114 &2138455547
 MonoBehaviour:
